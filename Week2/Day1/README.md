@@ -1,8 +1,11 @@
-#w2-1
+# w2-1
 
 ---
 
-##Bank.sol
+## Bank.sol
+
+---
+
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -83,7 +86,9 @@ contract Bank {
 
 ```
 
-##Deploy
+## Deploy
+
+---
 
 ```js
 const hre = require("hardhat");
@@ -130,7 +135,9 @@ npx hardhat verify address <argument> --network goeri
 * [Deployed Address: 0x2C5d57e6f259a29F7de56c48Dc6099B7B71eb98A](https://goerli.etherscan.io/address/0x2C5d57e6f259a29F7de56c48Dc6099B7B71eb98A)
 * ![Picture](./img/Bank.png)
 
-##test
+## test
+
+---
 
 ```js
 const chai = require("chai");
