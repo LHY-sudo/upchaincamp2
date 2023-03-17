@@ -140,10 +140,8 @@ npx hardhat verify address <argument> --network goeri
 ---
 
 ```js
-const chai = require("chai");
-const hre = require("hardhat")
-let except = chai.expect
-const ethers = hre.ethers;
+const {except} = require("chai");
+const {ethers} = require("hardhat")
 
 describe("Bank",function () {
     let bank;
