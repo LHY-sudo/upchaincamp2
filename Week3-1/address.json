@@ -1,0 +1,10 @@
+{
+  "0": {
+    "DLToken:": "0x11E39e20E0215e258f104E7cf4E9a9f956167aa5",
+    "Vault:": "0x03B32dbC5b29181C985259Bee47dFb834B5840Ca"
+  },
+  "1": {
+    "ERC721 Token:": "https://goerli.etherscan.io/address/0xC82B3fE59CBDFEFF30Fb5FF96c1277313d7E04e2",
+    "ERC721 vault:": "0xaa78A2a37d82c1a6836f158b672A89673c07E8cb"
+  }
+}
