@@ -1,0 +1,24 @@
+{
+  "name": "week4-1-2",
+  "version": "1.0.0",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
+  "main": "index.js",
+  "scripts": {
+    "eventRecord": "node ./scripts/getEventRecordOnChain.js",
+    "eventEmit": "node ./scripts/getEventEmitOnChain.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.8.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^6.3.0",
+    "mongoose": "^7.0.3"
+  }
+}
